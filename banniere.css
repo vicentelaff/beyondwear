@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Train+One&display=swap');
+
+.video-banniere{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+}
+
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%; 
+    z-index: -1;
+}
+
+.nom_slogan{
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    bottom: 500px;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    margin-bottom: -120px;
+}
+
+h1 {
+    font-family: 'Train One', cursive;
+    font-size: 120px;
+    color: #B5B682;
+    text-shadow: 2px 2px #F0EAD2;
+}
+
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 95px;
+    color: #F0EAD2;
+    text-shadow: 2px 2px #033F63;
+}
+
+p{
+    margin-left: 640px;
+    font-family: 'Abel', sans-serif;
+    font-size: 65px;
+    color: #F0EAD2;
+    text-shadow: 2px 2px #033f63;
+}
