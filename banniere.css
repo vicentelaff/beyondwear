@@ -6,10 +6,14 @@
     padding: 0;
     height: 600px;
     width: 100%;
+    z-index: 0;
+    background: #000;
 }
 
 video {
     position: absolute;
+    display: flex;
+    align-items: flex-start;
     right: 0;
     bottom: 0;
     height: auto;
@@ -21,17 +25,15 @@ video {
     display: flex;
     flex-direction: column;
     z-index: 0;
-    bottom: 500px;
     color: #f1f1f1;
     width: 100%;
-    padding: 0px;
+    padding: 0px; 
 }
 
 .content{
     display: flex;
     flex-direction: row;
-    margin-left: 700px;
-    margin-bottom: -120px;
+    font-size: 2vw;
 }
 
 h1 {
@@ -46,12 +48,13 @@ h3 {
     font-size: 95px;
     color: #F0EAD2;
     text-shadow: 2px 2px #033F63;
+    padding-top: 28px;
 }
 
 p{
-    margin-left: 640px;
+
     font-family: 'Abel', sans-serif;
     font-size: 65px;
     color: #F0EAD2;
     text-shadow: 2px 2px #033f63;
-}
+} 
