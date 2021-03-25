@@ -24,3 +24,23 @@
 .carousel-caption{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
+
+.navbar{
+    background-color: #28666e;
+}
+
+.navbar-brand{
+    color: #000;
+}
+
+.navbar-brand:hover{
+    color: #b5b682;
+}
+
+.nav-link{
+    color: #f0ead2;
+}
+
+.nav-link:hover{
+    color: #b5b682;
+}
