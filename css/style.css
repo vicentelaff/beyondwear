@@ -1,0 +1,26 @@
+/* ================ SECTION INEDITS ============== */
+.tendances{
+    margin: 3rem;
+    font-size: 6vw;
+}
+
+.carousel{
+    height: 100%;
+}
+
+.carousel-item{
+    height: 800px;
+    object-fit: contain;
+}
+
+.container-inedit{
+    background-color: #28666e;
+}
+
+.tendances {
+    color: #f0ead2;
+}
+
+.carousel-caption{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
