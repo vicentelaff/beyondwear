@@ -1,0 +1,279 @@
+
+
+.container-section {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.container_produits {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 300px;
+    height: 300px;
+
+    border-radius: 20px;
+
+    background-color: rgb(216, 52, 52);
+}
+
+
+.section  p{
+
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    text-align: start;
+}
+
+.container_produits:before{
+    content: '';
+    
+    background-size : cover;
+    
+    border-radius: 20px;
+  }
+  .txtcontenu {
+    
+
+
+    height: 300px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    opacity: 0;
+    transition: 0.5s;
+    z-index:2;
+    background-color: #28666E;
+    border-radius: 20px;
+  }
+  .container_produits:hover:before{
+    opacity: 0.5;
+  }
+  .container_produits:hover .txtcontenu {
+    opacity: 1;
+  }
+  
+  .container-produits:hover .imgcontenu {
+    opacity: 0.5;
+  }
+  
+  .conteneura:hover .txtcontenu {
+    opacity: 1;
+  }
+
+  .container_produits_description {
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+
+
+  .buying_button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 25px;
+    width: 500px;
+
+    margin-left: 30%;
+
+    border-radius: 50px;
+
+    background-color: #B5B682;
+
+    cursor: pointer;
+  }
+
+
+  .container_desription-section {
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .container_description {
+
+    display: flex;
+    text-align: start;
+    align-items: center;
+   
+
+    width: 300px;
+    height: 50px;
+    
+  }
+
+  .container_description p {
+
+    margin-left: 5%;
+    font-size: 1.5rem;
+  }
+
+
+.img_homme_1 {
+
+    background-image: url('images/homme1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.img_homme_2 {
+
+    background-image: url('images/homme2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.img_homme_3 {
+
+    background-image: url('images/homme3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.img_femme_1 {
+
+    background-image: url('images/femme1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.img_femme_2 {
+
+    background-image: url('images/femme2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.img_femme_3 {
+
+    background-image: url('images/femme3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.img_enfant_1 {
+
+    background-image: url('images/enfantF1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.img_enfant_2 {
+
+    background-image: url('images/enfantF2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.img_enfant_3 {
+
+    background-image: url('images/enfantF3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.img_autre_1 {
+
+    background-image: url('images/plaid.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.img_autre_2 {
+
+    background-image: url('images/table.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.img_autre_3 {
+
+    background-image: url('images/enfant1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+a {
+
+text-decoration: none;
+color: black;
+}
+
+
+
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
