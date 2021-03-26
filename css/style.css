@@ -5,6 +5,11 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 .video-banniere {
   position: relative;
   margin: 0;
@@ -158,11 +163,15 @@ video {
 }
 
 
-.section p {
+.section-boutique p {
 
   font-size: 1.5rem;
   font-family: 'Roboto';
   text-align: center;
+}
+
+.bg-boutique {
+  background: #f0ead2;
 }
 
 .container_produits:before {
@@ -266,21 +275,21 @@ video {
 
 .img_homme_1 {
 
-  background-image: url('images/homme1.png');
+  background-image: url('../images/homme1.png');
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .img_homme_2 {
 
-  background-image: url('images/homme2.png');
+  background-image: url('../images/homme2.png');
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .img_homme_3 {
 
-  background-image: url('images/homme3.png');
+  background-image: url('../images/homme3.png');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -288,14 +297,14 @@ video {
 
 .img_femme_1 {
 
-  background-image: url('images/femme1.png');
+  background-image: url('../images/femme1.png');
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .img_femme_2 {
 
-  background-image: url('images/femme2.png');
+  background-image: url('../images/femme2.png');
   background-size: 100%;
   background-repeat: no-repeat;
 
@@ -303,7 +312,7 @@ video {
 
 .img_femme_3 {
 
-  background-image: url('images/femme3.png');
+  background-image: url('../images/femme3.png');
   background-size: 100%;
   background-repeat: no-repeat;
 
@@ -311,7 +320,7 @@ video {
 
 .img_enfant_1 {
 
-  background-image: url('images/enfantF1.png');
+  background-image: url('../images/enfantF1.png');
   background-size: 100%;
   background-repeat: no-repeat;
 
@@ -319,7 +328,7 @@ video {
 
 .img_enfant_2 {
 
-  background-image: url('images/enfantF2.png');
+  background-image: url('../images/enfantF2.png');
   background-size: 100%;
   background-repeat: no-repeat;
 
@@ -327,7 +336,7 @@ video {
 
 .img_enfant_3 {
 
-  background-image: url('images/enfantF3.png');
+  background-image: url('../images/enfantF3.png');
   background-size: 100%;
   background-repeat: no-repeat;
 
@@ -336,7 +345,7 @@ video {
 
 .img_autre_1 {
 
-  background-image: url('images/plaid.jpg');
+  background-image: url('../images/plaid.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
 
@@ -345,7 +354,7 @@ video {
 
 .img_autre_2 {
 
-  background-image: url('images/table.jpg');
+  background-image: url('../images/table.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
 
@@ -353,17 +362,13 @@ video {
 
 .img_autre_3 {
 
-  background-image: url('images/enfant1.jpg');
+  background-image: url('../images/enfant1.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 
-a {
 
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
 
 
 
