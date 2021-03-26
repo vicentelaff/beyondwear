@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Train+One&display=swap');
 
+/*SECTION BANNIERE*/
+
 body{
     margin: 0;
     padding: 0;
@@ -62,7 +64,7 @@ h1{
     padding-top: 28px;
 }
 
-p{
+.slogan-boutique{
 
     font-family: 'Abel', sans-serif;
     font-size: 65px;
@@ -72,3 +74,67 @@ p{
     text-align: center;
     margin: auto;
 } 
+/*FIN DE SECTION BANNIERE*/
+
+/* SECTION PARTENAIRE*/
+
+.container{
+    position: relative;
+    background-color: #f0ead2;
+    height: 400px;
+    width: 100%;
+}
+
+.top-img{
+    position: absolute;
+    right: 0px;
+    top: -30px;
+    max-width: 280px;
+    
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.action{
+    color: #033f63;
+    font-size: 50px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.devise{
+    color: #033f63;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.texte{
+    color: #b5b682;
+    font-size: 18px;
+    padding-right: 50px;
+    margin-bottom: 15px;
+}
+
+.assoc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.assoc img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texte-partenaire{
+    color: #033f63;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*FIN DE SECTION PARTENAIRE*/
