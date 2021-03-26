@@ -435,3 +435,50 @@ color: rgb(255, 255, 255);
 
 
 }
+
+/* FOOTER A COPIER/COLLER */
+
+.container_footer {
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 400px;
+  width: 100%;
+
+  font-size: 1.5rem;
+
+  background-color: #B5B682;
+}
+
+.container_footer  span{
+
+
+  color: #0626d8;
+}
+
+.container_footer  a{
+
+  margin: 10px;
+  margin-left: 20%;
+  padding: 10px;
+  
+}
+
+
+
+.container_map {
+
+
+  display: flex;
+  
+
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 0;
+  
+
+
+}
