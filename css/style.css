@@ -84,6 +84,69 @@ video {
   margin: auto;
 }
 
+/* SECTION PARTENAIRE*/
+
+.container-partenaire{
+  position: relative;
+  background-color: #f0ead2;
+  height: 400px;
+  width: 100%;
+}
+
+.top-img{
+  position: absolute;
+  right: 0px;
+  top: -30px;
+  max-width: 280px;
+  
+}
+
+.bloc-partenaire{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.action-partenaire{
+  color: #033f63;
+  font-size: 50px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.devise-partenaire{
+  color: #033f63;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.texte-partenaire1{
+  color: #b5b682;
+  font-size: 18px;
+  padding-right: 50px;
+  margin-bottom: 15px;
+}
+
+.assoc-partenaire{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.assoc-partenaire img{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.texte-partenaire2{
+  color: #033f63;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*FIN DE SECTION PARTENAIRE*/
+
 /* ================ SECTION INEDITS ============== */
 .tendances {
   margin: 3rem;
